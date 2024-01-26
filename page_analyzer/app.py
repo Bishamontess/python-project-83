@@ -10,4 +10,4 @@ app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 
 @app.route('/')
 def main():
-    return "<p>Welcome to webpage's analyzer!</p>"
+    return "<p>Welcome to webpage's analyzer! The world will be mine!</p>"
