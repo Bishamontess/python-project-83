@@ -11,5 +11,5 @@ app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 @app.route('/')
 def main():
     return render_template(
-        '/',
+        'layout.html',
     )
